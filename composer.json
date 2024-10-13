@@ -1,0 +1,19 @@
+{
+    "name": "petski/renovate-31910",
+    "description": "Reproducation repo for discussion 31910",
+    "type": "project",
+    "require": {
+        "symfony/flex": "^2.4",
+        "gedmo/doctrine-extensions": "^3.17"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "6.4.*"
+        }
+    }
+}
